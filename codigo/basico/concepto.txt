@@ -1,0 +1,16 @@
+python para proposito general
+lenguaje de programacion dinamico
+sintaxis sencilla
+bibliotecas
+
+tipos:
+    cli
+    aplicaciones de escritorios
+    aplicaciones web backend
+    robots y hardware
+    aplicaciones cientificas
+
+
+instalar python
+    interprete
+    

@@ -1,0 +1,21 @@
+Objetivos de la lección:
+Manipular archivos de texto utilizando Python.
+    abrir, cerrar,leer y escribir archivos. .txt 
+
+Crear y escribir en un archivo de texto.
+    mensaje = "hola mundo"
+    mensaje1 = 'Hola mundo'
+    mensaje2 = """hola mundo"""
+
+    hola = "Hola mundo."
+    hola1 = 'hola mundo-'
+    hola2 = 'jola \'pop'
+    hola3 = "jola o'pop"
+
+    print(mensaje)
+    print(mensaje1)
+    print(mensaje2)
+    print(hola)
+    print(hola1)
+    print(hola2)
+    print(hola3)

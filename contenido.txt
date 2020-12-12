@@ -1,0 +1,15 @@
+Acerca del contenido del curso
+
+El curso PCAP: Fundamentos de Programación en Python (forma corta: Fundamentos de Python) cubre todos los conceptos básicos de programación en Python, así como conceptos y técnicas generales de programación de computadoras.
+
+El curso también familiariza al estudiante con el enfoque orientado a objetos. El curso se divide en seis módulos.
+
+Cada estudiante tiene acceso a materiales de práctica, laboratorios, cuestionarios, y evaluaciones para aprender a utilizar las habilidades y el conocimiento adquirido en el curso en tareas y situaciones de programación de la vida real.
+
+Los estudiantes que completen el curso podrán realizar tareas de codificación relacionadas con los conceptos básicos de programación en el lenguaje Python y comprender las nociones y técnicas fundamentales utilizadas en la programación orientada a objetos.
+
+Además, estarán listos para intentar obtener las siguientes certificaciones:
+
+PCEP - Programador Certificado en Python Nivel Básico
+PCAP - Programador Certificado en Python Nivel Asociado
+del Instituto Python de OpenEDG

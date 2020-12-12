@@ -1,0 +1,46 @@
+Implementar una función que tome una cadena que consta
+de palabras separadas por espacios simples y devuelva una cadena
+que contenga todas esas palabras pero en el orden inverso y tal
+que todos los casos de letras en la cadena original se intercambien es decir,
+las letras minúsculas se conviertan en mayúsculas y las mayúsculas se conviertan en minúsculas.
+ejemplo:
+oracion = "rUns dOg
+
+inviera el orden de las palabras y cambie el caso detodas las letras
+luego devuelkva la cadena "DoG RuNS
+
+Funcion descriptiva reverse_words_order_and_swap_cases en el siguiente editor
+
+
+la funcion tiene los siguientes parametros
+
+oracion de la cadena: una cadena dada de palabras separadas por espacios
+
+devoluciones
+cadena una cadena que contiene todas las palñabras de la oracion en el orden iverso y tal que tosos los cas
+os en la casena de la oracion se intercambien
+
+
+Restricciones.
+La orcaion contiene solo letras y espacions en ingles
+La oracion comuenxa y termuina con una letyra
+No ghat dos espacios consecutivos
+hay como maximo 10 palabras en la oracion
+la lonfituf de cada una de las palabras es copmo maximiio 10
+
+
+formato de formato de entrada de pruebas para preunas
+la entrada de stdin se procesara de la siguiente manrea y se pasara a la funcion
+la funcion y una linea contuene, larase yque se seopara a la funcion
+
+
+
+def palabras(sentence):
+
+    for i in sentence:
+        if i == i.upper():
+            palabra = i.lower()
+            print(palabra, end="")
+        if i == i.lower():
+            palabra = i.upper()
+            print(palabra, end="")

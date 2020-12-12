@@ -1,0 +1,13 @@
+Que es Django:
+Framework web gratuito. y de coódigo abierto escrito en python.
+que es un Framework? 
+es un marco de trabajo formado por un conjunto de herramientas, librerias y buenas practicas.
+Para que sirve Django:
+para hacer sitios web, complejos de forma rápida y sencilla.
+hay tareas que son repetitivas, pesadas y comunes en el momento de crear diferentes sitios web
+Django viebe a facilitar la realizacion de estas tareas.
+Hay código que podemos reutilizar de un sitio web a otro. Django también nos permite esta 
+reutilización de forma sencilla.
+Se basa en un modelo vista controlador.
+model template view
+intalacion de Django https://www.djangoproject.com/download/

@@ -1,0 +1,54 @@
+# En esta unidad hablaremos de lo que es un programa de computadora e introduciremos 
+# unos cuantos conceptos referidos a la programación y a la ejecución de programas. 
+# Utilizaremos en todo momento el lenguaje de programación Python para ilustrar esos conceptos.
+
+1.1. Computadoras y programas:
+
+    En la actualidad, la mayoría de nosotros utilizamos computadoras permanentemente: 
+    para mandar correos electrónicos, navegar por Internet, chatear, jugar, escribir textos.
+
+    Las computadoras se usan para actividades tan diferentes como predecir las condiciones 
+    meteorológicas de la próxima semana, guardar historias clínicas, diseñar aviones, 
+    llevar la contabilidad de las empresas o controlar una fábrica. 
+    Y lo interesante aquí (y lo que hace apasionante a esta carrera) es que el mismo aparato 
+    sirve para realizar todas estas actividades: uno no cambia de computadora cuando se cansa 
+    de chatear y quiere jugar al solitario.
+
+    Muchos definen una computadora moderna como "una máquina que almacena y manipula información 
+    bajo el control de un programa que puede cambiar". Aparecen acá dos conceptos que son claves: 
+    por un lado se habla de una máquina que almacena información, y por el otro lado, 
+    esta máquina está controlada por un programa que puede cambiar.
+
+    Una calculadora sencilla, de esas que sólo tienen 10 teclas para los dígitos, una tecla para 
+    cada una de las 4 operaciones, un signo igual, encendido y CLEAR, también es una máquina que 
+    almacena información y que está controlada por un programa. Pero lo que diferencia a esta 
+    calculadora de una computadora es que en la calculadora el programa no puede cambiar.
+
+    Un programa de computadora es un conjunto de instrucciones paso a paso que le indican a una 
+    computadora cómo realizar una tarea dada, y en cada momento uno puede elegir ejecutar un 
+    programa de acuerdo a la tarea que quiere realizar. Las instrucciones se deben escribir en un 
+    lenguaje que nuestra computadora entienda. Los lenguajes de programación son lenguajes diseñados 
+    especialmente para dar órdenes a una computadora, de manera exacta y no ambigua. Sería muy 
+    agradable poder darle las órdenes a la computadora en castellano, pero el problema del castellano, 
+    y de las lenguas habladas en general, es su ambigüedad:
+
+    Si alguien nos dice "Compra el collar sin monedas", no sabremos si nos pide que compremos el 
+    collar que no tiene monedas, o que compremos un collar y que no usemos monedas para la compra. 
+    Habrá que preguntarle a quien nos da la orden cuál es la interpretación correcta. Pero tales 
+    dudas no pueden aparecer cuando se le dan órdenes a una computadora.
+
+    Este curso va a tratar precisamente de cómo se escriben programas para hacer que una computadora 
+    realice una determinada tarea. Vamos a usar un lenguaje específico (Python) porque es sencillo y 
+    elegante, pero éste no será un curso de Python sino un curso de programación.
+
+    Nota: 
+    Existen una gran cantidad de programas desarrollados en Python, desde herramientas para servidores,
+    como mailman, hasta programas amigables para usuarios finales, como emesene, pasando por aplicaciones 
+    empresariales, openerp, tryton; herramientas de desarrollo, meld, mercurial, bazaar, trac; plataformas 
+    web, django, turbogears, zope; clientes de bittorrent, bittorrent, bittornado, deluge; montones de 
+    juegos de todo tipo, y muchísimas aplicaciones más. 
+    Todas estas aplicaciones son software libre, por lo que se puede obtener y estudiar el código con 
+    el que están hechas.
+    
+
+

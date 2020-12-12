@@ -1,0 +1,171 @@
+https://uniwebsidad.com/libros/python
+
+1.1. Introducción al Sistema Operativo GNU/Linux+
+    
+    Capítulo 1. Preparación del entorno de desarrollo
+
+        Comenzaremos instalando todo nuestro sistema, para crear un entorno de desarrollo propicio, 
+        para trabajar con Python. A tal fin, nos valdremos de las siguientes herramientas y tecnologías:
+
+        Sistema Operativo GNU/Linux: Ubuntu 11.10 (o superior)
+        Python 2.7 
+        iPython (Shell interactivo mejorado)
+        Ninja-IDE (IDE de desarrollo)
+        Bazaar (Sistema de Control de Versiones distribuido)
+    
+        Introducción al Sistema Operativo GNU/Linux
+        
+        Antes de comenzar, intentaremos establecer una diferencia, entre los término Linux y GNU/Linux, 
+        a fin de saber de qué estamos hablando con exactitud, en cada caso.
+
+        Linux, es un kernel, es decir, el núcleo de un Sistema Operativo, mientras que GNU/Linux, 
+        el Sistema Operativo que utiliza el Kernel Linux como núcleo, creado, difundido y promovido a 
+        través del Proyecto GNU, por la Free Software Foundation, organización sin fines de lucro, 
+        fundada por Richard Stallman, principal precursor del Software Libre.
+
+        El Kernel Linux, parte fundamental del Sistema Operativo, fue desarrollado por Linus Torvals, 
+        utilizando como modelo a UNIX. Una de las diferencias fundamentales entre los núcleos Linux y UNIX, 
+        es que el primero, es Software Libre, mientras que el segundo no lo es.
+
+        Por otra parte, mientras existe un único Kernel Linux (con versiones diferentes), existen decenas 
+        y hasta cientos de distribuciones GNU/Linux, es decir, diferentes Sistemas Operativos basados en el 
+        Kernel Linux, entre las cuales se destacan: Debian, Ubuntu, Kubuntu, Fedora, Gentoo, Slackware, CentOS, 
+        ArchLinux, Asturix, entre otros cientos.
+
+        1.5. Instalación de Bazaar
+            Bazaar es un sistema de control de versiones distribuido, que nos permitirá ir manteniendo 
+            el control cambios sobre nuestros archivos, centralizándolos en un repositorio.
+            Un Repositorio es un espacio destinado a almacenar información digital. En nuestro caso, 
+            lo que se almacenará en ese repositorio, serán los archivos -código fuente, tarballs, binarios, 
+            etc- de las aplicaciones y ejercicios que iremos codeando a lo largo del curso.
+            https://uniwebsidad.com/libros/python/capitulo-1/instalacion-de-bazaar
+
+    Capítulo 2. Estructura y elementos del lenguaje
+
+        Dentro de los lenguajes informáticos, Python, pertenece al grupo de los lenguajes de programación 
+        y puede ser clasificado como un lenguaje interpretado, de alto nivel, multiplataforma, de tipado 
+        dinámico y multiparadigma. A diferencia de la mayoría de los lenguajes de programación, Python 
+        nos provee de reglas de estilos, a fin de poder escribir código fuente más legible y de manera estandarizada. 
+        Estas reglas de estilo, son definidas a través de la Python Enhancement Proposal Nº 8 (PEP 8) , 
+        la cual iremos viendo a lo largo del curso.
+
+        2.1. Elementos del Lenguaje
+
+            Como en la mayoría de los lenguajes de programación de alto nivel, en Python se compone de una 
+            serie de elementos que alimentan su estructura. Entre ellos, podremos encontrar los siguientes:
+
+            2.1.1. Variables
+                
+                Una variable es un espacio para almacenar datos modificables, en la memoria de un ordenador. 
+                En Python, una variable se define con la sintaxis: 
+                
+                nombre_de_la_variable = valor_de_la_variable
+                
+                Cada variable, tiene un nombre y un valor, el cual define a la vez, el tipo de datos de la variable.
+                Existe un tipo de variable, denominada constante, la cual se utiliza para definir valores fijos, que no 
+                requieran ser modificados.
+                https://uniwebsidad.com/libros/python/capitulo-2/elementos-del-lenguaje
+            
+            2.1.2. Tipos de datos
+
+                Una variable (o constante) puede contener valores de diversos tipos. Entre ellos:
+                    Cadena de texto (string):
+                    Número entero:
+                    Número entero octal:
+                    Número real:
+                    Número entero hexadecimal:
+                    Booleano (verdadero / Falso):
+            
+            2.1.3. Operadores Aritméticos
+
+                Entre los operadores aritméticos que Python utiliza, podemos encontrar los siguientes: + - - * ** / // %
+                Siempre colocar un espacio en blanco, antes y después de un operador
+            
+            2.1.4. Comentarios
+
+                Un archivo, no solo puede contener código fuente. También puede incluir comentarios (notas que como programadores, 
+                indicamos en el código para poder comprenderlo mejor).
+                Los comentarios pueden ser de dos tipos: de una sola línea o multi-línea y se expresan de la siguiente manera:
+                # Esto es un comentario de una sola línea
+                """Y este es un comentario 
+                de varias líneas"""
+
+                En los comentarios, pueden incluirse palabras que nos ayuden a identificar además, 
+                el subtipo de comentario:
+                Comentarios en la misma línea del código deben separarse con dos espacios en blanco. 
+                Luego del símbolo # debe ir un solo espacio en blanco.
+
+            2.1.5. Tipos de datos complejos
+
+                Python, posee además de los tipos ya vistos, 3 tipos más complejos, que admiten una colección de datos. 
+                Estos tipos son:
+                Tuplas
+                Listas
+                Diccionarios
+                Estos tres tipos, pueden almacenar colecciones de datos de diversos tipos y se diferencian por su sintaxis y 
+                por la forma en la cual los datos pueden ser manipulados.
+
+                2.1.5.1. Tuplas
+
+                    Una tupla es una variable que permite almacenar varios datos inmutables (no pueden ser modificados una vez creados) 
+                    de tipos diferentes:
+                    mi_tupla = ('cadena de texto', 15, 2.8, 'otro dato', 25)
+
+                    Se puede acceder a cada uno de los datos mediante su índice correspondiente, siendo 0 (cero), el índice del primer elemento:
+
+                    print mi_tupla[1] # Salida: 15
+                
+                2.1.5.2. Listas
+                    
+                    Una lista es similar a una tupla con la diferencia fundamental de que permite modificar los datos una vez creados:
+                    mi_lista = ['cadena de texto', 15, 2.8, 'otro dato', 25]
+                    A las listas se accede igual que a las tuplas, por su número de índice:
+                    Las lista NO son inmutables: permiten modificar los datos una vez creados:
+                    Las listas, a diferencia de las tuplas, permiten agregar nuevos valores:
+                
+                2.1.5.3. Diccionarios
+                    
+                    Mientras que a las listas y tuplas se accede solo y únicamente por un número de índice, los diccionarios 
+                    permiten utilizar una clave para declarar y acceder a un valor:
+                    mi_diccionario = {'clave_1': valor_1, 'clave_2': valor_2, 'clave_7': valor_7} 
+                    print mi_diccionario['clave_2'] # Salida: valor_2
+                    Un diccionario permite eliminar cualquier entrada:
+                    Al igual que las listas, el diccionario permite modificar los valores
+
+        2.2. Estructuras de Control de Flujo
+
+            Una estructura de control, es un bloque de código que permite agrupar instrucciones de manera controlada. 
+            En este capítulo, hablaremos sobre dos estructuras de control:
+            
+            Estructuras de control condicionales
+            Estructuras de control iterativas
+
+            2.2.1. Identación
+                
+                Para hablar de estructuras de control de flujo en Python, es imprescindible primero, hablar de identación.
+                ¿Qué es la identación? En un lenguaje informático, la identación es lo que la sangría al lenguaje humano escrito 
+                (a nivel formal). Así como para el lenguaje formal, cuando uno redacta una carta, debe respetar ciertas sangrías, 
+                los lenguajes informáticos, requieren una identación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
